@@ -66,6 +66,7 @@ class _HtmlEditorWidgetMobileState extends State<HtmlEditorWidget> {
 
   @override
   void initState() {
+    print('Test:::mobileInit');
     docHeight = widget.otherOptions.height;
     key = getRandString(10);
     if (widget.htmlEditorOptions.filePath != null) {
